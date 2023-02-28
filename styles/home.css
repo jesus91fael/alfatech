@@ -1,0 +1,394 @@
+/* Paletas de cores utilizadas na página Home:
+#fff
+#f1f3f7
+#f6f6f6
+#a89f9f
+#233032
+#2f86d6 */
+
+/*Paletas de cores utilizadas na página Tabela de Preços:
+#fff
+#f1f3f7
+#f6f6f6
+#a8a4a4
+#233032
+#2f86d6
+rgba(47, 134, 214, 1)*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: #233032;
+  font-size: 12px;
+}
+
+header{
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  position: fixed;
+
+}
+
+.content-header{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img{
+  width: 35px;
+  height: 35px;
+}
+
+.logo .logo-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: start-flex;
+  margin-left: 10px;
+}
+
+.logo .logo-texto h1{
+  font-size: 14px;
+}
+
+.logo .logo-texto span{
+  font-size: 8px;
+  color: #2f86d6 ;
+  font-weight: 600;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 10px
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-shadow: 0.2em 0.2em 0.2em #7c7c7c;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-bg{
+  background-color: #2f86d6;
+  width: 100%;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 85vh;
+  position: abosolute;
+  margin: 0 auto;
+}
+
+.banner-texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  
+}
+
+.banner-texto h2{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.banner-texto p{
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.banner img{
+  width: 300px;
+  height: 300px;
+}
+
+.propaganda-1-bg{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #233032;
+}
+
+.propaganda-1{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.propaganda-1-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: start-flex;
+}
+
+.propaganda-1-texto h3{
+  color: #fff;
+  font-size: 16px;
+}
+
+.propaganda-1-texto p{
+  color: #fff;
+}
+
+.propaganda-1 button{
+  width: 150px;
+  background-color: #2f86d6;
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.propaganda-1 button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color:
+}
+
+.propaganda-1 button a img{
+  margin-right:5px;
+}
+
+.servicos-bg{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.servicos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.servicos h2{
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.servicos h2 span{
+  font-size: 22px;
+  color: #2f86d6;
+
+}
+
+.box-servicos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicos-descricao{
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  width: 33,33%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.servicos-descricao img{
+  width: 100px;
+  margin: 20px 0;
+}
+
+.servicos-descricao h3{
+  height: 40px;
+}
+
+.planos-bg{
+  width: 100%;
+  background-color:#f6f6f6;
+  padding: 40px;
+
+}
+
+.planos{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.planos h2{
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.planos h2 span{
+  font-size: 22px;
+  color: #2f86d6;
+}
+
+table{
+  text-align: center;
+  box-shadow: 0 0 10px 10px rgba(47, 134, 214, 1);
+  width: 100%;
+  border-radius: 5px;
+}
+
+table thead {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 10px 30px;
+
+}
+
+table thead th{
+  width: 20%;
+}
+
+table thead th img{
+  width: 100px;
+  margin: 10px 0;
+}
+
+table thead th span{
+ color: #a89f9f;
+ font-weight: normal;
+}
+
+table tbody{
+  display: flex;
+  flex-direction: column;
+}
+
+table tbody tr td{
+  width: 20%;
+  padding: 10px 30px;
+}
+
+table tbody tr{
+  padding: 10px 30px;
+}
+
+
+
+table tbody tr:nth-child(even){
+  background-color: #ffffff;
+}
+
+.propaganda-2-bg{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #2f86d6;
+}
+
+.propaganda-2{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.propaganda-2-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: start-flex;
+}
+
+.propaganda-2-texto h3{
+  color: #fff;
+  font-size: 16px;
+}
+
+.propaganda-2-texto p{
+  color: #fff;
+}
+
+.propaganda-2 button{
+  width: 150px;
+  background-color: #233032;
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.propaganda-2 button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color:
+}
+
+.propaganda-21 button a img{
+  margin-right:5px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer{
+ margin-bottom: 16px;
+}
+
+footer p{
+  line-height: 32px;
+}
+
+footer h4 span{
+  color: #2f86d6;
+  line-height: 32px;
+
+}
